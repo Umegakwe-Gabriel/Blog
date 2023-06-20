@@ -21,3 +21,5 @@ const newBlog = async(req, res)=>{
         res.status(400).json({message: "Couldn't create new blog", error})
     }
 }
+
+module.exports = {getAllBlogs, newBlog}

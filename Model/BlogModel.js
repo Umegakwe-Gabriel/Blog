@@ -16,7 +16,7 @@ const BlogSchema = BlogMongo.Schema({
     contact: {
         type: String
     },
-})
+}, {timestamps: true})
 
 const BlogModel = BlogMongo.model("The Second Coming of Jesus", BlogSchema)
 
